@@ -25,7 +25,6 @@ const OrganizationForm = () => {
   const [tryAgain, setTryAgain] = useState(false)
 
   const onSubmit = (formValues) => {
-    console.log('Data', formValues)
     BaseURL.post('/cbo', {
       organizationName: formValues.organizationName,
       pointOfContact: formValues.pointOfContact,

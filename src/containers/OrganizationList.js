@@ -46,8 +46,6 @@ const OrganizationList = () => {
         // always executed
       });
   }
-  console.log('CBO', cboList)
-  console.log('Programs', programList)
   return <div>
     <h2>Organizations</h2>
     <table border="1">
